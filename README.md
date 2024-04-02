@@ -10,8 +10,8 @@ layers是一些具体的模型类，比如linear，con2d
 functional是一些算法和激活函数  
 lossfn简单写了个交叉熵
 optim是两个优化器SGD和Adam
-parameter是tensor的一个简单封装
-Data类本来是想写出一个类似dataloader的类的，有一些不会的错误，故最后也没用。里面有一个show_single_image可以显示图片。
+parameter是tensor的一个简单封装  
+Data类本来是想写出一个类似dataloader的类的，有一些不会的错误，故最后也没用。里面有一个show_single_image可以显示图片。  
 module_train是简单的一个例子来检验自己的模型能不能用，就是手写数字识别  
 
 ### 注：里面的数据文件路径是写死的，我自己方便用的
